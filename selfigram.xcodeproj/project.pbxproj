@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF1042C1C3F5DD500AFB397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1042B1C3F5DD500AFB397 /* AppDelegate.swift */; };
+		4CF1042E1C3F5DD500AFB397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1042D1C3F5DD500AFB397 /* ViewController.swift */; };
+		4CF104311C3F5DD500AFB397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF1042F1C3F5DD500AFB397 /* Main.storyboard */; };
+		4CF104361C3F5DD600AFB397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF104341C3F5DD500AFB397 /* LaunchScreen.storyboard */; };
+		4CF104411C3F5DD600AFB397 /* selfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF104401C3F5DD600AFB397 /* selfigramTests.swift */; };
+		4CF1044C1C3F5DD600AFB397 /* selfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1044B1C3F5DD600AFB397 /* selfigramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF1043D1C3F5DD600AFB397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF104201C3F5DD500AFB397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF104271C3F5DD500AFB397;
+			remoteInfo = selfigram;
+		};
+		4CF104481C3F5DD600AFB397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF104201C3F5DD500AFB397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF104271C3F5DD500AFB397;
+			remoteInfo = selfigram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CF104281C3F5DD500AFB397 /* selfigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF1042B1C3F5DD500AFB397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF1042D1C3F5DD500AFB397 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CF104301C3F5DD500AFB397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF104321C3F5DD500AFB397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF104351C3F5DD500AFB397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF104371C3F5DD600AFB397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF1043C1C3F5DD600AFB397 /* selfigramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selfigramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF104401C3F5DD600AFB397 /* selfigramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfigramTests.swift; sourceTree = "<group>"; };
+		4CF104421C3F5DD600AFB397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF104471C3F5DD600AFB397 /* selfigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selfigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF1044B1C3F5DD600AFB397 /* selfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfigramUITests.swift; sourceTree = "<group>"; };
+		4CF1044D1C3F5DD600AFB397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF104251C3F5DD500AFB397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF104391C3F5DD600AFB397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF104441C3F5DD600AFB397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF1041F1C3F5DD500AFB397 = {
+			isa = PBXGroup;
+			children = (
+				4CF1042A1C3F5DD500AFB397 /* selfigram */,
+				4CF1043F1C3F5DD600AFB397 /* selfigramTests */,
+				4CF1044A1C3F5DD600AFB397 /* selfigramUITests */,
+				4CF104291C3F5DD500AFB397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF104291C3F5DD500AFB397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF104281C3F5DD500AFB397 /* selfigram.app */,
+				4CF1043C1C3F5DD600AFB397 /* selfigramTests.xctest */,
+				4CF104471C3F5DD600AFB397 /* selfigramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF1042A1C3F5DD500AFB397 /* selfigram */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1042B1C3F5DD500AFB397 /* AppDelegate.swift */,
+				4CF1042D1C3F5DD500AFB397 /* ViewController.swift */,
+				4CF1042F1C3F5DD500AFB397 /* Main.storyboard */,
+				4CF104321C3F5DD500AFB397 /* Assets.xcassets */,
+				4CF104341C3F5DD500AFB397 /* LaunchScreen.storyboard */,
+				4CF104371C3F5DD600AFB397 /* Info.plist */,
+			);
+			path = selfigram;
+			sourceTree = "<group>";
+		};
+		4CF1043F1C3F5DD600AFB397 /* selfigramTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF104401C3F5DD600AFB397 /* selfigramTests.swift */,
+				4CF104421C3F5DD600AFB397 /* Info.plist */,
+			);
+			path = selfigramTests;
+			sourceTree = "<group>";
+		};
+		4CF1044A1C3F5DD600AFB397 /* selfigramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1044B1C3F5DD600AFB397 /* selfigramUITests.swift */,
+				4CF1044D1C3F5DD600AFB397 /* Info.plist */,
+			);
+			path = selfigramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF104271C3F5DD500AFB397 /* selfigram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF104501C3F5DD600AFB397 /* Build configuration list for PBXNativeTarget "selfigram" */;
+			buildPhases = (
+				4CF104241C3F5DD500AFB397 /* Sources */,
+				4CF104251C3F5DD500AFB397 /* Frameworks */,
+				4CF104261C3F5DD500AFB397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = selfigram;
+			productName = selfigram;
+			productReference = 4CF104281C3F5DD500AFB397 /* selfigram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF1043B1C3F5DD600AFB397 /* selfigramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF104531C3F5DD600AFB397 /* Build configuration list for PBXNativeTarget "selfigramTests" */;
+			buildPhases = (
+				4CF104381C3F5DD600AFB397 /* Sources */,
+				4CF104391C3F5DD600AFB397 /* Frameworks */,
+				4CF1043A1C3F5DD600AFB397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF1043E1C3F5DD600AFB397 /* PBXTargetDependency */,
+			);
+			name = selfigramTests;
+			productName = selfigramTests;
+			productReference = 4CF1043C1C3F5DD600AFB397 /* selfigramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF104461C3F5DD600AFB397 /* selfigramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF104561C3F5DD600AFB397 /* Build configuration list for PBXNativeTarget "selfigramUITests" */;
+			buildPhases = (
+				4CF104431C3F5DD600AFB397 /* Sources */,
+				4CF104441C3F5DD600AFB397 /* Frameworks */,
+				4CF104451C3F5DD600AFB397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF104491C3F5DD600AFB397 /* PBXTargetDependency */,
+			);
+			name = selfigramUITests;
+			productName = selfigramUITests;
+			productReference = 4CF104471C3F5DD600AFB397 /* selfigramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF104201C3F5DD500AFB397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Elisa;
+				TargetAttributes = {
+					4CF104271C3F5DD500AFB397 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4CF1043B1C3F5DD600AFB397 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4CF104271C3F5DD500AFB397;
+					};
+					4CF104461C3F5DD600AFB397 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4CF104271C3F5DD500AFB397;
+					};
+				};
+			};
+			buildConfigurationList = 4CF104231C3F5DD500AFB397 /* Build configuration list for PBXProject "selfigram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF1041F1C3F5DD500AFB397;
+			productRefGroup = 4CF104291C3F5DD500AFB397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF104271C3F5DD500AFB397 /* selfigram */,
+				4CF1043B1C3F5DD600AFB397 /* selfigramTests */,
+				4CF104461C3F5DD600AFB397 /* selfigramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF104261C3F5DD500AFB397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF104361C3F5DD600AFB397 /* LaunchScreen.storyboard in Resources */,
+				4CF104311C3F5DD500AFB397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF1043A1C3F5DD600AFB397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF104451C3F5DD600AFB397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF104241C3F5DD500AFB397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF1042E1C3F5DD500AFB397 /* ViewController.swift in Sources */,
+				4CF1042C1C3F5DD500AFB397 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF104381C3F5DD600AFB397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF104411C3F5DD600AFB397 /* selfigramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF104431C3F5DD600AFB397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF1044C1C3F5DD600AFB397 /* selfigramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF1043E1C3F5DD600AFB397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF104271C3F5DD500AFB397 /* selfigram */;
+			targetProxy = 4CF1043D1C3F5DD600AFB397 /* PBXContainerItemProxy */;
+		};
+		4CF104491C3F5DD600AFB397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF104271C3F5DD500AFB397 /* selfigram */;
+			targetProxy = 4CF104481C3F5DD600AFB397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF1042F1C3F5DD500AFB397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF104301C3F5DD500AFB397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF104341C3F5DD500AFB397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF104351C3F5DD500AFB397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF1044E1C3F5DD600AFB397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF1044F1C3F5DD600AFB397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF104511C3F5DD600AFB397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = selfigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chan.selfigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CF104521C3F5DD600AFB397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = selfigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chan.selfigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CF104541C3F5DD600AFB397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = selfigramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chan.selfigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selfigram.app/selfigram";
+			};
+			name = Debug;
+		};
+		4CF104551C3F5DD600AFB397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = selfigramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chan.selfigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selfigram.app/selfigram";
+			};
+			name = Release;
+		};
+		4CF104571C3F5DD600AFB397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = selfigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chan.selfigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = selfigram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CF104581C3F5DD600AFB397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = selfigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chan.selfigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = selfigram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF104231C3F5DD500AFB397 /* Build configuration list for PBXProject "selfigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF1044E1C3F5DD600AFB397 /* Debug */,
+				4CF1044F1C3F5DD600AFB397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF104501C3F5DD600AFB397 /* Build configuration list for PBXNativeTarget "selfigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF104511C3F5DD600AFB397 /* Debug */,
+				4CF104521C3F5DD600AFB397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF104531C3F5DD600AFB397 /* Build configuration list for PBXNativeTarget "selfigramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF104541C3F5DD600AFB397 /* Debug */,
+				4CF104551C3F5DD600AFB397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF104561C3F5DD600AFB397 /* Build configuration list for PBXNativeTarget "selfigramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF104571C3F5DD600AFB397 /* Debug */,
+				4CF104581C3F5DD600AFB397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF104201C3F5DD500AFB397 /* Project object */;
+}
